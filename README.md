@@ -8,7 +8,9 @@ default styles here.
 
 You'll also find a couple summaries I wrote here.
 
-I don't have information on IE11.
+I don't have information on IE11, nor on versions of Edge using
+Microsoft's proprietary rendering engine(s).  The latest versions of
+Edge use WebKit or something like it.
 
 ## Uniform Top and Bottom Margins
 
