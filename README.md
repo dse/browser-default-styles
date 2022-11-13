@@ -1,5 +1,8 @@
 # browser-default-styles
 
+Research on browser/Foundation/Bootstrap default styles, mainly
+margins/padding.
+
 You'll find Safari (webkit), Chrome (blink), and Firefox (gecko)
 default styles here.
 
