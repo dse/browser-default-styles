@@ -13,6 +13,13 @@ I don't have information on IE11, nor on versions of Edge using
 Microsoft's proprietary rendering engine(s).  The latest versions of
 Edge use WebKit or something like it.
 
+## Rem Units
+
+This document lists `rem` units.  They're `16px`.
+
+For browser defaults that don't specify `rem` units, this document
+lists equivalents based on `1rem = 16px`.
+
 ## Uniform Top and Bottom Margins
 
 The following block elements have the equivalent of 1rem (or a little
