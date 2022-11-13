@@ -17,31 +17,7 @@ Edge use WebKit or something like it.
 The following block elements have the equivalent of 1rem (or a little
 more) top/bottom margins.
 
-### Webkit/Blink
-
--   headings:
-    -   `h1` (1.34rem) [font size 32px bold]
-    -   `h2` (1.245rem) [font size 24px bold]
-    -   `h3` (1.17rem) [font size 18.72px bold]
-    -   `h4` (1.33rem) [font size 16px bold]
-    -   `h5` (1.3861rem) [font size 13.28px bold]
-    -   `h6` (1.5611rem) [font size 10.72px bold]
--   lists:
-    -   `dir`
-    -   `dl`
-    -   `menu`
-    -   `ol`
-    -   `ul`
--   monospace:
-    -   `listing`
-    -   `plaintext`
-    -   `pre`
-    -   `xmp`
--   `blockquote`
--   `figure`
--   `p`
-
-### Gecko
+### Webkit/Blink/Gecko
 
 -   headings:
     -   `h1` (1.34rem) [font size 32px bold]
