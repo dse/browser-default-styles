@@ -1,0 +1,74 @@
+p, dl, multicol {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+dd {
+  margin-left: 40px;
+}
+blockquote, figure {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+blockquote[type=cite] {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1em;
+}
+h1 {
+  margin-top: .67em;
+  margin-bottom: .67em;
+}
+h2 {
+  margin-top: .83em;
+  margin-bottom: .83em;
+}
+h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h4 {
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+h5 {
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+}
+h6 {
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+}
+listing {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+xmp, pre, plaintext {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+ul, menu, dir {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 40px;
+}
+ol {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 40px;
+}
+ul, ol, dir, menu, dl {
+    ul, ol, dir, menu, dl {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+hr {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
