@@ -4,7 +4,8 @@ Research on browser/Foundation/Bootstrap default styles, mainly
 margins/padding.
 
 You'll find Safari (webkit), Chrome (blink), and Firefox (gecko)
-default styles here.
+default styles here.  You'll also find what Bootstrap and Foundation
+set them to.
 
 You'll also find a couple summaries I wrote here.
 
