@@ -45,6 +45,7 @@ more) top/bottom margins.
     -   `plaintext`
     -   `pre`
     -   `xmp`
+    -   (13.33px, possibly due to automatic font size change for monospace?)
 -   `blockquote`
 -   `figure`
 -   `multicol` (Firefox only)
