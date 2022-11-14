@@ -186,6 +186,7 @@ function getCssCode() {
         styleNames.sort(function (a, b) { return a.localeCompare(b); });
         styleNames.forEach(function (styleName) {
             if (!/margin|padding/i.test(styleName)) return;
+            if (styleName === '-ms-wrap-margin') return;
             var value = styles[styleName];
             if (value === '0px') return;
 
