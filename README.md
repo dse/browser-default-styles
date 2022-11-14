@@ -28,12 +28,12 @@ more) top/bottom margins.
 ### Webkit/Blink/Gecko
 
 -   headings:
-    -   `h1` (1.34rem) [font size 32px bold]
-    -   `h2` (1.245rem) [font size 24px bold]
-    -   `h3` (1.17rem) [font size 18.72px bold]
-    -   `h4` (1.33rem) [font size 16px bold]
-    -   `h5` (1.3861rem) [font size 13.28px bold]
-    -   `h6` (1.5611rem) [font size 10.72px bold]
+    -   `h1` (1.34rem = 21.44px) [font size 32px bold]
+    -   `h2` (1.245rem = 19.92px) [font size 24px bold]
+    -   `h3` (1.17rem = 18.72px) [font size 18.72px bold]
+    -   `h4` (1.33rem = 21.28px) [font size 16px bold]
+    -   `h5` (1.3861rem = 22.1776px) [font size 13.28px bold]
+    -   `h6` (1.5611rem = 24.9776px) [font size 10.72px bold]
 -   lists:
     -   `dir`
     -   `dl`
