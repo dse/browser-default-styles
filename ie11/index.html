@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <title>Page Title</title>
+    </head>
+    <body>
+
+        <pre id="cssCode" style="background: #eeeeee; padding: 1rem;"></pre>
+
+        <div id="elements">
+            <h1>Heading One</h1>
+            <h1>Heading One</h1>
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h2>Heading Two</h2>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+            <h3>Heading Three</h3>
+            <h3>Heading Three</h3>
+            <h4>Heading Four</h4>
+            <h4>Heading Four</h4>
+            <h4>Heading Four</h4>
+            <h5>Heading Five</h5>
+            <h5>Heading Five</h5>
+            <h5>Heading Five</h5>
+            <h6>Heading Six</h6>
+            <h6>Heading Six</h6>
+            <h6>Heading Six</h6>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <ul>
+                <li>List</li>
+                <li>
+                    Items
+                    <ul>
+                        <li>List</li>
+                    </ul>
+                    <ul>
+                        <li>List</li>
+                    </ul>
+                    <ul>
+                        <li>List</li>
+                    </ul>
+                </li>
+                <li>
+                    Items
+                    <ol>
+                        <li>List</li>
+                    </ol>
+                    <ol>
+                        <li>List</li>
+                    </ol>
+                    <ol>
+                        <li>List</li>
+                    </ol>
+                </li>
+                <li>Galore</li>
+            </ul>
+            <ul>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </ul>
+            <ul>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </ul>
+            <ol>
+                <li>List</li>
+                <li>
+                    Items
+                    <ul>
+                        <li>List</li>
+                    </ul>
+                    <ul>
+                        <li>List</li>
+                    </ul>
+                    <ul>
+                        <li>List</li>
+                    </ul>
+                </li>
+                <li>
+                    Items
+                    <ol>
+                        <li>List</li>
+                    </ol>
+                    <ol>
+                        <li>List</li>
+                    </ol>
+                    <ol>
+                        <li>List</li>
+                    </ol>
+                </li>
+                <li>Galore</li>
+            </ol>
+            <ol>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </ol>
+            <ol>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </ol>
+            <dir>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </dir>
+            <dir>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </dir>
+            <dir>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </dir>
+            <menu>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </menu>
+            <menu>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </menu>
+            <menu>
+                <li>List</li>
+                <li>Items</li>
+                <li>Galore</li>
+            </menu>
+            <dl>
+                <dt>definition term</dt>
+                <dd>definition data</dd>
+                <dt>definition term</dt>
+                <dd>definition data</dd>
+                <dt>definition term</dt>
+                <dd>definition data</dd>
+            </dl>
+            <dl>
+                <dt>definition term</dt>
+                <dd>definition data</dd>
+            </dl>
+            <dl>
+                <dt>definition term</dt>
+                <dd>definition data</dd>
+            </dl>
+            <pre>[pre] preformatted text</pre>
+            <pre>[pre] preformatted text</pre>
+            <pre>[pre] preformatted text</pre>
+            <xmp>[xmp] preformatted text</xmp>
+            <xmp>[xmp] preformatted text</xmp>
+            <xmp>[xmp] preformatted text</xmp>
+            <listing>[listing] preformatted text</listing>
+            <listing>[listing] preformatted text</listing>
+            <listing>[listing] preformatted text</listing>
+            <blockquote>blockquote</blockquote>
+            <blockquote>blockquote</blockquote>
+            <blockquote>blockquote</blockquote>
+            <figure>figure</figure>
+            <figure>figure</figure>
+            <figure>figure</figure>
+        </div>
+
+        <script src="index.js"></script>
+        <script>
+            var cssCodeElement = document.getElementById('cssCode');
+            var elementsElement = document.getElementById('elements');
+            var cssCode = getCssCode(elementsElement);
+            console.log(cssCode.length);
+            // cssCode.innerText = cssCode;
+            cssCodeElement.textContent = cssCode;
+
+        </script>
+
+    </body>
+</html>
