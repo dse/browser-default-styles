@@ -188,6 +188,18 @@ function getCssCode() {
             if (!/margin|padding/i.test(styleName)) return;
             var value = styles[styleName];
             if (value === '0px') return;
+
+            if (styleName === 'margin-block-start'   && value === styles['margin-top'])     return;
+            if (styleName === 'margin-block-end'     && value === styles['margin-bottom'])  return;
+            if (styleName === 'margin-inline-start'  && value === styles['margin-left'])    return;
+            if (styleName === 'margin-inline-end'    && value === styles['margin-right'])   return;
+            if (styleName === 'padding-block-start'  && value === styles['padding-top'])    return;
+            if (styleName === 'padding-block-end'    && value === styles['padding-bottom']) return;
+            if (styleName === 'padding-inline-start' && value === styles['padding-left'])   return;
+            if (styleName === 'padding-inline-end'   && value === styles['padding-right'])  return;
+
+            if (/^scroll-padding-(block|inline)-(start|end)$/i.test(styleName)) return;
+
             if (!outputtedSectionHeading && sectionName != null) {
                 cssCode += "    /* " + sectionName + " */\n";
                 outputtedSectionHeading = true;
